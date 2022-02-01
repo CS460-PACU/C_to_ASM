@@ -1,5 +1,9 @@
 # C to ASM Example
 
+## Build the example:
+
+```make```
+
 ## View the assembly code:
 
 ```less bin/test.asm```
