@@ -8,7 +8,7 @@
       "name": "(gdb) Launch with args", // Change name
       "type": "cppdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/bin/main", // THIS IS IMPORTANT
+      "program": "${workspaceFolder}/bin/test", // THIS IS IMPORTANT
       "args": ["64.59.225.81", "/chadd/cs360f21/LabHttp.html"], // add comma separated list of args here.
       "stopAtEntry":  true, // THIS IS IMPORTANT 
       "cwd": "${fileDirname}",
@@ -28,7 +28,7 @@
       "name": "(gdb) Launch",
       "type": "cppdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/bin/main", // THIS IS IMPORTANT
+      "program": "${workspaceFolder}/bin/test", // THIS IS IMPORTANT
       "args": [],
       "stopAtEntry": true, // THIS IS IMPORTANT 
       "cwd": "${fileDirname}",
