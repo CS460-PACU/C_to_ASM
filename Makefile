@@ -28,4 +28,4 @@ printtest:
 	enscript -C -T 2 -p - -M Letter -Ec --color -fCourier8 src/test.c  | ps2pdf - bin/test.pdf
 
 clean:
-	rm -f bin/test bin/*.o
+	rm -f bin/test bin/*.o bin/*.pdf
